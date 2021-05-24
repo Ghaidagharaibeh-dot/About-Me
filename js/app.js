@@ -1,6 +1,6 @@
 'use strict';
 alert('Welcome to my website');
-prompt('what is you name');
+prompt('what is your name');
 prompt('What is your major');
 prompt('are you intersted in programming');
 alert('If you interested in programming sent me a massege in my Email to sent you a references to learn programming');
@@ -61,6 +61,23 @@ switch (getUp){
         //console.log(you didnt answer my qoustion)
        alert('you didnt answer my qoustion')          
 }
+
+
+let programing= prompt ('Do you think I love the programing')
+programing.toLocaleLowerCase();
+switch (programing){
+    case 'yes':
+        case'y':
+        alert ('correrct');
+        case'no':
+        alert('incorrect');
+        break;
+        default:
+             //console.log(you didnt answer my qoustion)
+            alert('you didnt answer my qoustion')
+            
+}
+
 
 
 
