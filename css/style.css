@@ -1,0 +1,33 @@
+body {
+    background-repeat: repeat-y;
+     }
+  
+  
+  header nav ul li { 
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    
+  
+   
+  }
+  header nav ul li a {text-decoration:none;
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+   }
+  
+  header { text-align: center;
+  }
+  
+  
+  main { margin-left: 100px;
+  margin-right: 400px;
+  margin-top: 100px;
+  
+  
+}
+  
+   p  {
+  
+    border: 400 solid black;}
