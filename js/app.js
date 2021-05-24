@@ -14,11 +14,53 @@ switch (major){
        break;
        case'no':
        alert('incorrect'); 
+       break;
   default:
        //console.log(you didnt answer my qoustion)
        alert('you didnt answer my qoustion');          
 }
 
+let city= prompt ('Do you think I live in Amman ')
+city.toLocaleLowerCase();
+switch (city){
+   case 'yes':
+       case'y':
+       alert ('correct');
+       case'no':
+       alert('incorrect'); 
+       break;
+  default:
+       //console.log(you didnt answer my qoustion)
+       alert('you didnt answer my qoustion')          
+}
+
+let courseLevel= prompt ('I am in level 201 ')
+courseLevel.toLocaleLowerCase();
+switch (courseLevel){
+   case 'yes':
+       case'y':
+       alert ('correct');
+       case'no':
+       alert('incorrect'); 
+       break;
+  default:
+        //console.log(you didnt answer my qoustion)
+       alert('you didnt answer my qoustion')          
+}
+
+let getUp= prompt ('Iam get up at 8 am ')
+getUp.toLocaleLowerCase();
+switch (getUp){
+   case 'yes':
+       case'y':
+       alert ('correct');
+       case'no':
+       alert('incorrect'); 
+       break;
+  default:
+        //console.log(you didnt answer my qoustion)
+       alert('you didnt answer my qoustion')          
+}
 
 
 
