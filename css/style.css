@@ -28,6 +28,10 @@ body {
   
 }
   
-   p  {
+   #first  {
+     margin: 3%;
   
     border: 400 solid black;}
+    #second{
+      margin: 3%;
+    }
