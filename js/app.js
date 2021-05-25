@@ -5,85 +5,149 @@ prompt('What is your major');
 prompt('are you intersted in programming');
 alert('If you interested in programming sent me a massege in my Email to sent you a references to learn programming');
 
-
-let major= prompt('is my main major is industrial engineering ').toLowerCase();
-switch (major){
-   case 'yes':
-       case'y':
-       alert ('correct');
-       break;
-       case'no':
-       alert('incorrect'); 
-       break;
-  default:
-       //console.log(you didnt answer my qoustion)
-       alert('you didnt answer my qoustion');          
+let score = 0;
+let major = prompt('is my main major is industrial engineering ').toLowerCase();
+switch (major) {
+     case 'yes':
+     case 'y':
+          score++;
+          alert('correct');
+          break;
+     case 'no':
+          alert('incorrect');
+          break;
+     default:
+          //console.log(you didnt answer my qoustion)
+          alert('you didnt answer my qoustion');
 }
 
-let city= prompt ('Do you think I live in Amman ')
+let city = prompt('Do you think I live in Amman ')
 city.toLocaleLowerCase();
-switch (city){
-   case 'yes':
-       case'y':
-       alert ('correct');
-       case'no':
-       alert('incorrect'); 
-       break;
-  default:
-       //console.log(you didnt answer my qoustion)
-       alert('you didnt answer my qoustion')          
+switch (city) {
+     case 'yes':
+     case 'y':
+          score++;
+          alert('correct');
+          break;
+     case 'no':
+          alert('incorrect');
+          break;
+     default:
+          //console.log(you didnt answer my qoustion)
+          alert('you didnt answer my qoustion')
 }
 
-let courseLevel= prompt ('I am in level 201 ')
+let courseLevel = prompt('I am in level 201 ')
 courseLevel.toLocaleLowerCase();
-switch (courseLevel){
-   case 'yes':
-       case'y':
-       alert ('correct');
-       case'no':
-       alert('incorrect'); 
-       break;
-  default:
-        //console.log(you didnt answer my qoustion)
-       alert('you didnt answer my qoustion')          
+switch (courseLevel) {
+     case 'yes':
+     case 'y':
+          score++;
+          alert('correct');
+          break;
+     case 'no':
+          alert('incorrect');
+          break;
+     default:
+          //console.log(you didnt answer my qoustion)
+          alert('you didnt answer my qoustion')
 }
 
-let getUp= prompt ('Iam get up at 8 am ')
+let getUp = prompt('Iam get up at 8 am ')
 getUp.toLocaleLowerCase();
-switch (getUp){
-   case 'yes':
-       case'y':
-       alert ('correct');
-       case'no':
-       alert('incorrect'); 
-       break;
-  default:
-        //console.log(you didnt answer my qoustion)
-       alert('you didnt answer my qoustion')          
+switch (getUp) {
+     case 'yes':
+     case 'y':
+          score++;
+          alert('correct');
+          break;
+     case 'no':
+          alert('incorrect');
+          break;
+     default:
+          //console.log(you didnt answer my qoustion)
+          alert('you didnt answer my qoustion')
 }
 
 
-let programing= prompt ('Do you think I love the programing')
+let programing = prompt('Do you think I love the programing')
 programing.toLocaleLowerCase();
-switch (programing){
-    case 'yes':
-        case'y':
-        alert ('correrct');
-        case'no':
-        alert('incorrect');
-        break;
-        default:
-             //console.log(you didnt answer my qoustion)
-            alert('you didnt answer my qoustion')
-            
+switch (programing) {
+     case 'yes':
+     case 'y':
+          score++;
+          alert('correrct');
+          break;
+     case 'no':
+          alert('incorrect');
+          break;
+     default:
+          //console.log(you didnt answer my qoustion)
+          alert('you didnt answer my qoustion')
+
+}
+
+let pet = prompt('Guess how many pet I have');
+let answerOfper = pet;
+
+let myPet = 3;
+for (var x = 0; x > 3; x++) {
+     pet = prompt('Guess how many pet I have');
+
+     if (answerOfper == myPet) {
+          alert('great');
+          score++;
+          break;
+     }
+     else if (answerOfper > myPet) {
+          answerOfper = prompt('too hight');
+
+     }
+     else if (answerOfper < myPet) { answerOfper = prompt('too low'); }
+    
+
+}
+if (x >= 4) {
+     alert('my pet is 3');
 }
 
 
+let dish = ['Falafel', 'Kunafa', 'Maqluba', 'Shawarma', 'Mansaf']
+dish.toLocaleString();
+
+for (var i = 0; i > 6; i++) {
+     let food = prompt('write one of tradional food in jordan');
+
+
+     if (food = dish) {
+          alert('you win')
+          score++
+     }
+
+     else {
+
+          alert('try again')
+
+
+     }
+}
+
+
+alert('your score is ${score}');
+console.log(score);
 
 
 
 
-     
+
+
+
+
+
+
+
+
+
 
 
 
