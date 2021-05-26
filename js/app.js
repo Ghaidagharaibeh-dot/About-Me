@@ -23,9 +23,10 @@ switch (major) {
           //console.log(you didnt answer my qoustion)
           alert('you didnt answer my qoustion');
 }
-firtsq();
+
 
 }
+firtsq();
 
 
 function secondq(){
@@ -44,8 +45,9 @@ switch (city) {
           //console.log(you didnt answer my qoustion)
           alert('you didnt answer my qoustion')
 }
-secondq();
+
 }
+secondq();
 
 function thirdq(){
 let courseLevel = prompt('I am in level 201 ')
@@ -63,8 +65,9 @@ switch (courseLevel) {
           //console.log(you didnt answer my qoustion)
           alert('you didnt answer my qoustion')
 }
-thirsq();
+
 }
+thirsq();
 
 
 function fourthq(){
@@ -83,8 +86,9 @@ switch (getUp) {
           //console.log(you didnt answer my qoustion)
           alert('you didnt answer my qoustion')
 }
-fourthq();
+
 }
+fourthq();
 
 
 function fifthq(){
@@ -106,8 +110,9 @@ switch (programing) {
           alert('you didnt answer my qoustion')
 
 }
-fifthq();
+
 }
+fifthq();
 
 
 function sexthq(){
@@ -133,8 +138,9 @@ for (var x = 0; x > 3; x++) {
 if (x >= 4) {
      alert('my pet is 3');
 }
-sexthq();
+
 }
+sexthq();
 
 
 
@@ -159,8 +165,9 @@ for (var i = 0; i > 6; i++) {
 
      }
 }
-seventhq();
+
 }
+seventhq();
 
 
 alert('your score is '+ score);
