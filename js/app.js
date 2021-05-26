@@ -87,6 +87,7 @@ switch (programing) {
 
 }
 
+
 let pet = prompt('Guess how many pet I have');
 let answerOfper = pet;
 
@@ -112,6 +113,7 @@ if (x >= 4) {
 }
 
 
+
 let dish = ['Falafel', 'Kunafa', 'Maqluba', 'Shawarma', 'Mansaf']
 dish.toLocaleString();
 
@@ -122,6 +124,7 @@ for (var i = 0; i > 6; i++) {
      if (food = dish) {
           alert('you win')
           score++
+          break;
      }
 
      else {
