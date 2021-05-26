@@ -93,7 +93,6 @@ let answerOfper = pet;
 
 let myPet = 3;
 for (var x = 0; x > 3; x++) {
-     pet = prompt('Guess how many pet I have');
      pet = Number(pet);
      if (answerOfper == myPet) {
           alert('great');
@@ -136,7 +135,7 @@ for (var i = 0; i > 6; i++) {
 }
 
 
-alert('your score is ${score}');
+alert('your score is '+ score);
 console.log(score);
 
 
