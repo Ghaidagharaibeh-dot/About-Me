@@ -93,7 +93,7 @@ let answerOfper = pet;
 let myPet = 3;
 for (var x = 0; x > 3; x++) {
      pet = prompt('Guess how many pet I have');
-
+     pet = Number(pet);
      if (answerOfper == myPet) {
           alert('great');
           score++;
@@ -104,7 +104,7 @@ for (var x = 0; x > 3; x++) {
 
      }
      else if (answerOfper < myPet) { answerOfper = prompt('too low'); }
-    
+
 
 }
 if (x >= 4) {
