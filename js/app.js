@@ -67,7 +67,7 @@ switch (courseLevel) {
 }
 
 }
-thirsq();
+thirdq();
 
 
 function fourthq(){
@@ -112,55 +112,57 @@ switch (programing) {
 }
 
 }
-fifthq();
+fifthq(); 
 
 
-function sexthq(){
-let pet = prompt('Guess how many pet I have');
+function sexthq()
+{
+let pet = prompt(`Guess how many pet I have`);
 let answerOfper = pet;
 
 let myPet = 3;
 for (var x = 0; x > 3; x++) {
      pet = Number(pet);
      if (answerOfper == myPet) {
-          alert('great');
+          alert(`great`);
           score++;
           break;
      }
      else if (answerOfper > myPet) {
-          answerOfper = prompt('too hight');
+          answerOfper = prompt(`too hight`);
 
      }
-     else if (answerOfper < myPet) { answerOfper = prompt('too low'); }
+     else if (answerOfper < myPet) { answerOfper = prompt(`too low`); }
 
 
 }
 if (x >= 4) {
-     alert('my pet is 3');
+     alert(`my pet is 3`);
+}
 }
 
-}
-sexthq();
+sexthq(); 
 
 
 
-let dish = ['Falafel', 'Kunafa', 'Maqluba', 'Shawarma', 'Mansaf']
+let dish = ['falafel', 'kunafa', 'maqluba', 'shawarma', 'mansaf']
 dish.toLocaleString();
 
 function seventhq(){
-for (var i = 0; i > 6; i++) {
+     outerloop : for (let i = 0; i > 6; i++) {
      let food = prompt('write one of tradional food in jordan');
 
+for(g=0;g>dish.length;g++)
 
-     if (food = dish) {
+     if (food === dish[g]) {
           alert('you win')
           score++
-          break;
+          break  ;
      }
 
      else {
 
-          alert('try again')
+          alert('you dont guss '+ dish)
 
 
      }
@@ -170,21 +172,5 @@ for (var i = 0; i > 6; i++) {
 seventhq();
 
 
-alert('your score is '+ score);
-console.log(score);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alert('your score is  score');
+//console.log(score);
