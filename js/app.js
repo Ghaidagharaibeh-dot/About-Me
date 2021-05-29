@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 alert('Welcome to my website');
 prompt('what is your name');
 prompt('What is your major');
@@ -88,7 +88,7 @@ switch (getUp) {
 }
 
 }
-fourthq();
+fourthq(); 
 
 
 function fifthq(){
@@ -173,4 +173,5 @@ seventhq();
 
 
 alert('your score is  score');
-//console.log(score);
+//console.log(score); 
+   

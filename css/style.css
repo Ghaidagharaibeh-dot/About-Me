@@ -1,32 +1,70 @@
-body {
-    background-repeat: repeat-y;
+
+
+     header{
+      
+      line-height: 1.4em;
+      font-size: xx-large;
+      text-align: center;
+     height: 85px;
+      border: 7px solid rgb(43, 36, 100);
+      padding: 50px;
+      margin : 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+    
+
      }
   
-  
-  header nav ul li { 
-    display: inline-block;
-    height: 20px;
-    width: 100px;
     
-  
-   
-  }
-  header nav ul li a {text-decoration:none;
-  color: black;
-  margin-top: 100px;
-  margin-bottom: 100px;
+     .intro {
+      padding-top: 1%;
+       font-size: medium;
+      font-weight: bold;
+      padding-inline-end: 200px;
+      display: inline-block;
+     
+     
+    }
+.intro{
+  position: relative;
+     bottom:15px ;
+}
+    main{
+      font-size: larger;
+    margin-left: 70px;
+    }
+   #first { 
+color:rgb(24, 23, 23);
+line-height: 1.4em;
+
    }
-  
-  header { 
-    background-color: rgb(48,170,233);
+   .Q{
+    margin-left:80px;
+     
+   }
+   .list {
+     font-size: 20px;
+     border: 5px solid rgb(216, 214, 214);
+     height:40px;
+  width: 275px;
+  text-align: center;
 
-    text-align: center;
 
+  margin-left: 50px;
+      margin-right: 90px;  
   }
-  
-  
-  main { 
-   
+
+.top{
+  margin-left:80px;
+}
+ footer{ background-color: rgb(240, 13, 160);
+   text-align: center;
+   font-size: small;
+ }
+
+  /* main { 
+    font-size: 16px;
+    font-style: oblique;
     margin-left: 50px;
   margin-right: 400px;
   margin-top: 100px;
